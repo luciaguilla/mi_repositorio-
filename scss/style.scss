@@ -309,34 +309,3 @@ body {
 .flexImgDown {
 	@include flexImg;
 }
-
-//Condicionales
-
-.titulo {
-	@if ($colorTitulo == purple) {
-		color: purple; 
-	}@else if ($colorTitulo == white) {
-		color: white; 
-	}@else {
-		color: pink;
-	}
-}
-
-//Operaciones sección index 
-
-$ancho: 200%;
-
-.titulo {
-	background-color: $color1;
-	width: ($ancho/2);
-}
-
-.subtitulo {
-	background-color: $color2;	
-	width: ($ancho/4);
-}
-
-.contenido__final {
-	background-color: $color2;
-	width: ($ancho/6);
-}

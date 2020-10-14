@@ -230,18 +230,3 @@ body {
   justify-content: center;
   justify-content: space-around;
   margin-top: 10px; }
-
-.titulo {
-  color: purple; }
-
-.titulo {
-  background-color: pink;
-  width: 100%; }
-
-.subtitulo {
-  background-color: darkviolet;
-  width: 50%; }
-
-.contenido__final {
-  background-color: darkviolet;
-  width: 33.33333%; }
