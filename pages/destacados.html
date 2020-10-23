@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=500, initial-scale=1">
     <meta name="description" content="Muestra de trabajos de los fotógrafos y videógrafos más destacados">
     <meta name="keywords" content="FOTOGRAFOS, VIDEOGRAFOS, TRABAJOS, EVENTOS, DESTACADOS, FOTOS">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -20,33 +20,16 @@
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-	<header>
-		<div class="logo">
-			<h5>Logo</h5>
-		</div>
-		<!-- Menú principal lista -->
-		<!--<div class="navegador">
-			<nav>
-				<ul>
-					<li><a href="../index.html"> Inicio </a></li>
-					<li><a href="fotografos.html">Fotógrafos</a></li>
-					<li><a href="videografos.html">Videógrafos</a></li>
-					<li><a href="destacados.html">Los + destacados</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
-				</ul>
-			</nav>
-	    </div>-->
-	</header>
 	<div class="container">
 		<div class="row">
-			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-company-purple">
-                <a class="navbar-brand" href="#">Logo</a>
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-company">
+                <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
                       <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -55,7 +38,7 @@
                     <li class="nav-item">
                       <a class="nav-link" href="videografos.html">Videógrafos</a>
                     </li>
-                    <li>
+                    <li  class="nav-item active">
                     	<a class="nav-link" href="destacados.html">Los + destacados</a>
                     </li>
                     <li>
@@ -66,30 +49,99 @@
 			</nav>
 	    </div>
 	</div>
-	<div class="contenido">
-		<div class="flexNamesUp">
-		<h1 class="contenido__titulo contenido__titulo--estilo">Lorena Paez</h1>
-		<h1 class="contenido__titulo contenido__titulo--estilo">Matías Roque</h1>
-		<h1 class="contenido__titulo contenido__titulo--estilo">Francisco Moldes</h1>
+	<main role="main">
+
+  <div class="row titles">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h1 class="title">DESTACADOS</h1>
+			<h2 class="subtitle">Los + elegidos por los clientes</h2>
 		</div>
-		<!-- Fotos -->
-		<div class="flexImgUp">
-			<img class="imgDest" src="../img/anillos.jpg" alt="Fotos de boda" width="500px" height="auto">
-			<img src="../img/15.jpg" alt="Fotos de fiesta de 15" width="500px" height="auto">
-			<img src="../img/bautismo.jpg" alt="Fotos de bautismo" width="500px" height="auto">
-		</div>
-		</div>
-		<div class="flexNamesDown">
-		<h1 class="contenido__titulo contenido__titulo--estilo">Mariela Smith</h1>
-		<h1 class="contenido__titulo contenido__titulo--estilo">Fernando Mariani</h1>
-		<h1 class="contenido__titulo contenido__titulo--estilo">Ludmila Cantos</h1>
-		</div>
-		<div class="flexImgDown imgDestacados">
-			<img src="../img/niña.jpg" alt="niña con flores" width="500px" height="auto">
-			<img src="../img/pareja.jpg" alt="pareja sentada" width="500px" height="auto">
-			<img src="../img/zapatosbb.jpg" alt="zapatos de bebe" width="500px" height="auto">
-		</div>
-	</div>
+  </div>
+<div class="contenido">
+  <div class="album py-5 bg-black">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../img/vestido.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Cecilia Barrionuevo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../img/manosbb.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Marcela Estevez</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../img/zapatosbb.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Matias Roque</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../img/atardecer2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Francisco Moldes</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../img/chicas.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Luciana Romero</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../img/pareja.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Martina Villalba</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../img/zapatosbautis.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Lucas Planté</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../img/novios.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Pedro Solferino</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="../img/bodanovios.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Celeste Perrota</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
 	<!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
