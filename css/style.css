@@ -9,7 +9,7 @@ ul li a {
 
 .contenido {
   text-align: center;
-  margin-top: 90px; }
+  margin-top: 6%; }
 
 body {
   background-color: #141414; }
@@ -32,20 +32,10 @@ body {
 .imgTransition:hover {
   width: 1000px; }
 
-/*Bootstrap*/
-/*.carousel-inner {
-	width: 1000px;
-	height: auto;
-}
-*/
-/*Bootstrap navbar color*/
-.bg-company-purple {
-  background-color: purple; }
-
 .contenido {
   background-color: #141414;
   font-family: serif;
-  color: purple; }
+  color: white; }
 
 .contenido__titulo {
   font-family: sans-serif;
@@ -65,63 +55,54 @@ body {
 .contenido__titulo--estilo {
   font-family: sans-serif;
   font-size: 30px;
-  color: purple; }
+  color: white; }
 
 .card-text {
   font-family: sans-serif;
   font-size: 20px;
-  color: white; }
+  color: black; }
 
 .btn-primary {
-  background-color: purple;
-  border-color: purple;
+  background-color: black;
+  border-color: black;
   font-family: sans-serif; }
 
 .btn-primary:hover {
-  background-color: #6E12A3;
-  border-color: #6E12A3;
+  background-color: black;
+  border-color: black;
   font-family: sans-serif; }
 
 .btn {
   border-radius: 3px; }
 
 .contact-form {
-  padding-right: 25%;
-  padding-left: 25%;
-  padding-top: 8%; }
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 3%; }
 
 label {
   font-family: sans-serif;
   font-size: 20px;
-  color: white; }
+  color: black; }
 
 .title {
   font-family: serif;
   font-size: 50px;
-  color: purple;
-  margin-top: 130px;
+  color: white;
+  margin-top: 7%;
   text-align: center; }
 
-.subtitle {
+.subtitle-contact {
   font-family: sans-serif;
   font-size: 20px;
-  color: white;
+  color: black;
   text-align: center;
-  margin-top: 30px; }
-
-.card-body {
-  background-color: purple; }
+  margin-top: 0%;
+  margin-bottom: 10%; }
 
 .redes-container {
   margin-top: 20px;
   margin-right: 50px; }
-
-.card {
-  width: 348px;
-  transition-duration: 3s; }
-
-.card:hover {
-  width: 400px; }
 
 .carousel-caption {
   position: absolute;
@@ -132,7 +113,7 @@ label {
 
 .absolute-div {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 0;
   right: 20%;
   bottom: 0; }
@@ -157,3 +138,33 @@ label {
   font-family: sans-serif;
   font-size: 20px;
   color: white; }
+
+.container-contact {
+  background-color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+  padding-bottom: 8%;
+  margin-top: 10%;
+  margin-bottom: 8%; }
+
+@media (max-width: 700px) and (min-width: 100px) {
+  .title {
+    font-size: 30px; }
+  .contenido__titulo {
+    font-size: 15px; }
+  .contenido__subtitulo {
+    font-size: 6px; }
+  .title1 {
+    font-size: 30px; }
+  .subtitle1 {
+    font-size: 10px; }
+  .img-fluid {
+    width: 80px;
+    heigth: auto; } }
+
+.navbar {
+  background-color: #141414; }
+
+#carouselExampleCaptions {
+  margin-top: 8%; }
